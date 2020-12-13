@@ -1,16 +1,16 @@
 ---
-Title: List of Windows Application Software
-Date: 2019-04-15 00:00
-Modified: 2019-12-11 00:00
+Title: 推薦的 Windows 應用軟體列表
+Date: 2020-12-13
+Modified: 2020-12-13
 Category: Category
 Tags: [zh_TW, Windows, Apps]
 Slug: WinSoft
 Authors: undecV
-Summary: <del>裝機必備的實用軟體大合集！</del> 
+Summary: List of Windows Application Software<br /><del>裝機必備的實用軟體大合集！</del>
 ...
 
-推薦一些 Windows 平台下的軟體， 適合日常以及非日常使用。
-並不一定每一款軟體你都需要或適合你，也未必是大眾的選擇；
+推薦一些 Windows 平台下的軟體， 適合日常以及非日常使用。<br />
+並不一定每一款軟體你都需要或適合你，也未必是大眾的選擇；<br />
 <del>但是那些無時無刻不在彈廣告的辣雞軟件一定不會是你的選擇。</del>
 
 <!-- # List of Windows Application Software -->
@@ -18,189 +18,113 @@ Summary: <del>裝機必備的實用軟體大合集！</del>
 > <del>裝機必備的實用軟體大合集！</del>
 > 論如何優雅的使用你的電腦。
 
-> Ver: 2.1.2
+> Version 5.0.0 (2020-12-13): 第五版更新。更新和修正了部分內容；程式碼重寫，文章生成基於 Python，jinja2 和 YAML。
 
-> Copyright © 2019 undecV.<br />
+> Copyright © 2020 undecV.<br />
 > [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)<br />
 > This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## 概論
 
-請注意，這裡的選擇標準非常的... 主觀。（不是排名，不分先後）
-以下是粗略的選擇的標準，但是不一定全都滿足：
+提示，本文討論的範圍是 應用軟體，不包括例如 Google Docs, Spotify, Telegram 之類的 網頁應用和服務。
+
+也請注意，這裡的選擇標準非常的... 主觀。（不是排名，不分先後）<br />
+以下是粗略的選擇的標準：
 
 - 確實能夠解決問題，且有效的解決問題；
 - 沒有騷擾性廣告；
-- [開放原始碼軟體（Open Source Software，OSS）][wikipeidia:zh:OSS]，保留一部分權利並允許用戶學習、修改、增進提高這款軟體的品質。
-- [自由軟體（Free Software）][wikipeidia:zh:free-software]，這裡的 Free 表示「自由（libre）」而不是「免費（gratis）」；自由軟體可以不受限制地自由使用、複製、研究、修改和分發。自由軟體都是開源軟體，而自由軟體更加的開放，而對於開源軟體更加嚴格的定義。
 - 界面端莊優雅。
+- FOSS，即是 [自由軟體（Free Software）][wikipeidia:zh:free-software] 以及 [開放原始碼軟體（Open Source Software，OSS）][wikipeidia:zh:OSS]，這裡的 Free 表示「自由（libre）」而不是「免費（gratis）」；開放原始碼軟體保留一部分權利並允許用戶學習、修改、增進提高這款軟體的品質。自由軟體可以不受限制地自由使用、複製、研究、修改和分發。自由軟體更加的開放，而對於開源軟體更加嚴格的定義。
 
 [wikipeidia:zh:OSS]: https://zh.wikipedia.org/wiki/开源软件
 [wikipeidia:zh:free-software]: https://zh.wikipedia.org/wiki/自由软件
 
+### 第三版更新
+
+- 由於篇幅刪除了 瀏覽器插件 章節，瀏覽器的 插件、UserScript、UserStyles 能大幅增益網路使用體驗，以後如果有機會我會再撰文介紹。
+- 刪除了 防毒軟體 章節，免費的防毒軟體體驗確實差<del>（其實付費也是）</del>，如果你使用的是正版 Windows 作業系統，自帶原生的 Windows Security 就可以滿足需求。電腦的安全更需要的是建立安全意識，並且保持良好的網路使用習慣，不要看網路上的野路子教學一頓風騷操作說關就關防火牆和防毒軟體之類的。
+
+這份列表從大學的一個突發奇想到現在已四年有餘，感謝各位的捧場，<br />
+你們與我的討論也讓我感受到了編寫這份列表的價值。<br />
+希望能對各位有所幫助，在完成電腦上繁雜工作的時候可以感到舒適和效率：）
+
 ## 標記
 
-本文的標記並不完全，**僅供參考**，若發現可能有漏標或錯標，歡迎提出修改建議：）
+本文的標記可能並不完全或有誤，甚至隨着時間的流逝而與當時不符，所以**僅供參考**，若發現有漏標或錯標，歡迎提出修改建議：）
 
 - 沒有標記的，一般來說都是[免費軟體（Freeware）][wikipeidia:zh:freeware]。
-- **`開源`**：開放原始碼軟體（Open Source Software，OSS）
-- **`自由`**：自由軟體（Free Software）
-- **`商業`**：[商業軟體（Commercial Software）][wikipeidia:zh:commercial-software]，一般來說，要錢買的。但有免費版本的不在標示範疇。
-<!-- - **`牆外`**：在中國大陸地區由於某些原因，可能無法訪問網站或正常使用。標示可能不完全。 -->
+- `自由`：FOSS，自由軟體（Free Software）和開放原始碼軟體（Open Source Software，OSS）
+- `商業`：[商業軟體（Commercial Software）][wikipeidia:zh:commercial-software]，一般來說，要錢買的。但有免費版本的不標示。
 
 [wikipeidia:zh:freeware]: https://zh.wikipedia.org/wiki/免費軟體
 [wikipeidia:zh:commercial-software]: https://zh.wikipedia.org/wiki/商业软件
 
 ## 推薦軟體列表
 
-<!-- START -->
-<!-- flags_filter: ["PRO", "HIDE", "OLD"] -->
+<ul><li><h3>Web Browser - 瀏覽器</h3></li><ul>
+<li><code>自由</code> <a href="https://www.mozilla.org/zh-TW/firefox/all/"><strong>Mozilla Firefox</strong></a>:  讓你的心智與網路一樣自由開闊。 </li><li><a href="https://www.google.com.tw/chrome/browser/desktop/index.html"><strong>Google Chrome</strong></a>:  無比簡易、安全又快速的使用體驗。 </li>
+</ul><li><h3>Internet - 網路</h3></li><ul>
+<li><h4>Download - 下載</h4></li><ul>
+<li><code>自由</code> <a href="https://aria2.github.io/"><strong>aria2</strong></a>:  多協議命令行下載器，功能強大，高學習成本，需調教；但是，用會了就不會再考慮其他下載器了。 (<a href="https://www.appinn.com/aria2-in-windows-setup/">小众软件</a>)</li><li><code>自由</code> <a href="https://www.qbittorrent.org/"><strong>qBittorrent</strong></a>:  自由的 BitTorrent 客戶端，擁有可訂製的種子搜尋功能。 (<a href="https://portableapps.com/apps/internet/qbittorrent_portable">PortableApps</a>, <a href="https://www.zhihu.com/question/43640207/answer/202058150">知乎</a>)</li>
+</ul><li><h4>Email - 電子郵件</h4></li><ul>
+<li><code>自由</code> <a href="https://www.mozilla.org/en-US/thunderbird/all/"><strong>Mozilla Thunderbird</strong></a>:  與 Firefox 師出同門 Mozilla，老牌、自由的電郵軟體。 </li>
+</ul><li><h4>Remote Access - 遠端</h4></li><ul>
+<li><code>自由</code> <a href="https://winscp.net/eng/index.php"><strong>WinSCP</strong></a>:  SFTP 客戶端。 </li><li><code>自由</code> <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/"><strong>PuTTY</strong></a>:  SSH 客戶端。 </li><li><a href="https://remotedesktop.google.com/"><strong>Chrome Remote Desktop</strong></a>:  Google 出品，免費、快速、簡單的遠端桌面。 </li><li><code>商業</code> <a href="https://www.teamviewer.com/zhtw/"><strong>TeamViewer</strong></a>:  老牌遠端桌面。 </li>
+</ul>
+</ul><li><h3>Multimedia - 多媒體</h3></li><ul>
+<li><h4>Audio - 音訊</h4></li><ul>
+<li><a href="https://www.foobar2000.org/"><strong>foobar2000</strong></a>:  音樂播放器，專業強大，需要調教。 </li><li><a href="http://www.aimp.ru/"><strong>AIMP</strong></a>:  類 Winamp，來自戰鬥民族的高顏值音樂播放器，支持換外觀。 </li><li><a href="http://www.crintsoft.com/"><strong>MiniLyrics</strong></a>:  為多種播放器自動下載並顯示歌詞。 </li><li><code>自由</code> <a href="https://www.audacityteam.org/"><strong>Audacity</strong></a>:  錄音，音訊剪輯、處理。 </li>
+</ul><li><h4>Video - 視訊</h4></li><ul>
+<li><code>自由</code> <a href="http://www.codecguide.com/"><strong>K-Lite Codec Pack</strong></a>:  播放器和編解碼器的軟體合集，專業、設定多、功能強大。 </li><li><code>自由</code> <a href="https://www.videolan.org/vlc/"><strong>VLC media player</strong></a>:  支持多格式的跨平臺播放器，支持串流，支持換外觀。 </li><li><a href="http://maruko.appinn.me/"><strong>小丸工具箱</strong></a>:  簡單易用的壓制工具。 </li><li><code>自由</code> <a href="http://avidemux.org/"><strong>Avidemux</strong></a>:  簡單的影片處理。 </li><li><code>自由</code> <a href="https://obsproject.com/"><strong>Open Broadcaster Software</strong></a>:  傳說中的 OBS，實況、直播串流、錄屏。 </li><li><code>自由</code> <a href="https://mkvtoolnix.download/index.html"><strong>MKVToolNix</strong></a>:  MKV 打包解包工具。 </li><li><code>自由</code> <a href="http://www.aegisub.org/"><strong>Aegisub</strong></a>:  字幕時間軸。 </li>
+</ul><li><h4>Image - 圖像</h4></li><ul>
+<li><code>自由</code> <a href="https://imageglass.org/"><strong>ImageGlass</strong></a>:  輕量級圖片瀏覽器。 </li><li><a href="http://www.irfanview.com/"><strong>IrfanView</strong></a>:  快速小巧且功能強大的圖片瀏覽器，不僅僅是看圖。 (<a href="https://xbeta.info/use-irfanview.htm">善用佳软</a>)</li><li><a href="http://blog.bahraniapps.com/gifcam/"><strong>GifCam</strong></a>:  GIF 錄屏，動圖生成。 </li><li><a href="https://zh.snipaste.com/"><strong>Snipaste</strong></a>:  截圖 + 貼圖，功能強大，簡單易用。 </li>
+</ul><li><h4>Comic Reader - 漫畫閱讀</h4></li><ul>
+<li><a href="https://www.cnblogs.com/stronghorse/p/4913182.html"><strong>ComicsViewer</strong></a>:  看漫畫。 </li><li><a href="https://www.yacreader.com/"><strong>YACReader</strong></a>:  漫畫閱讀、管理器。 </li><li><code>自由</code> <strong>Sumatra PDF</strong>:  也可以看漫畫，觸屏友好，見 Office / PDF 章節。 </li><li><code>自由</code> <strong>Calibre</strong>:  也可以看漫畫，見 Office / EPUB 章節。 </li>
+</ul><li><h4>Creation - 創作</h4></li><ul>
+<li><code>商業</code> <a href="http://www.adobe.com/"><strong>Adobe 全家桶</strong></a>: [<code>Family</code>] 不二的選擇。 </li><li><code>自由</code> <a href="https://www.blender.org/"><strong>Blender</strong></a>:  著名 3D 創作軟體，還能剪影片。 </li><li><code>自由</code> <a href="https://www.gimp.org/"><strong>GIMP</strong></a>:  點陣圖編輯軟體，自由軟體界的 Photoshop。 </li><li><code>自由</code> <a href="https://inkscape.org/en/"><strong>Inkscape</strong></a>:  矢量圖編輯軟體，自由軟體界的 Ai 或 CorelDRAW。 </li><li><code>自由</code> <a href="https://krita.org/en/"><strong>Krita</strong></a>:  KDE 家族的繪圖軟體，自由軟體界的 SAI（？）。 </li>
+</ul>
+</ul><li><h3>Embellish and Easy Access - 美化和便捷使用</h3></li><ul>
+<li><code>自由</code> <a href="https://www.rainmeter.net/"><strong>Rainmeter</strong></a>:  桌面小部件，系統美化的必備。 </li><li><a href="http://qttabbar.wikidot.com/"><strong>QTTabBar</strong></a>:  為檔案總管添加標籤頁功能。 (<a href="https://www.appinn.com/qt-tabbar/">小众软件</a>)</li><li><code>自由</code> <a href="http://carnackeys.com/"><strong>Carnac</strong></a>:  在屏幕上顯示鍵盤輸入。 </li><li><code>商業</code> <a href="http://store.steampowered.com/app/431960/Wallpaper_Engine/"><strong>Wallpaper Engine</strong></a>:  <del>整個桌布都是我的播放器，</del>可高度客製化的動態桌布。 </li>
+</ul><li><h3>Files - 檔案處理</h3></li><ul>
+<li><code>自由</code> <a href="https://git-scm.com/"><strong>Git</strong></a>:  分佈式版本管理。 </li><li><a href="http://www.uderzo.it/main_products/space_sniffer/index.html"><strong>SpaceSniffer</strong></a>:  以「矩形式樹狀結構繪圖法」檢視硬碟佔用空間分佈。 </li><li><code>自由</code> <a href="https://winmerge.org/"><strong>WinMerge</strong></a>:  資料夾比較、同步。 </li><li><code>自由</code> <a href="https://dupeguru.voltaicideas.net/"><strong>dupeGuru</strong></a>:  尋找重複檔案。 </li><li><h4>Compression - 壓縮</h4></li><ul>
+<li><code>自由</code> <a href="http://www.7-zip.org/"><strong>7-Zip</strong></a>:  7z 格式原生，高壓縮率。 </li><li><code>自由</code> <a href="http://www.peazip.org/"><strong>PeaZip</strong></a>:  多格式支持。 </li><li><code>商業</code> <a href="https://www.bandisoft.com/bandizip/"><strong>Bandizip</strong></a>:  多格式支持，方便的文字編碼轉換；v7 新版本免費添加廣告，<del>（可以退回 v6 版本或課金享受</del>。 </li><li><code>商業</code> <a href="http://www.rarlab.com/download.htm"><strong>WinRAR</strong></a>:  RAR 格式原生，可添加恢復用冗餘。<del>（其實不要錢也能用）</del> </li>
+</ul><li><h4>Desktop Search - 桌面搜尋</h4></li><ul>
+<li><a href="https://www.voidtools.com/"><strong>Everything</strong></a>:  超高速文件搜尋。 (<a href="https://www.appinn.com/tag/everything/">小众软件</a>)</li><li><code>自由</code> <a href="http://www.launchy.net/"><strong>Launchy</strong></a>:  快速啓動工具，再也不需要尋找快捷方式。 (<a href="https://www.appinn.com/launchy/">小众软件</a>)</li>
+</ul>
+</ul><li><h3>Security - 安全</h3></li><ul>
+<li><code>自由</code> <a href="https://eraser.heidi.ie/"><strong>Eraser</strong></a>:  FBI等級徹底地擦除檔案，幾乎無法被恢復。 </li><li><code>自由</code> <a href="https://www.virtualbox.org/"><strong>VirtualBox</strong></a>:  虛擬機器。 </li>
+</ul><li><h3>Office - 辦公室＼文書處理</h3></li><ul>
+<li><h4>PDF - 可攜式文件格式</h4></li><ul>
+<li><a href="https://get.adobe.com/tw/reader/"><strong>Adobe Acrobat Reader DC</strong></a>:  原生 PDF 閱讀器。 </li><li><code>自由</code> <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html"><strong>Sumatra PDF</strong></a>:  小巧快速的 PDF、電子書、漫畫閱讀器，觸屏友好。 </li>
+</ul><li><h4>Database - 資料庫</h4></li><ul>
+<li><code>商業</code> <a href="https://mementodatabase.com/"><strong>Memento Database</strong></a>:  強大易用的資料庫管理應用，配合 Android 版食用風味更加。 </li>
+</ul><li><h4>Office suite - 辦公室套件</h4></li><ul>
+<li><code>自由</code> <a href="https://www.libreoffice.org/"><strong>LibreOffice</strong></a>:  自由軟體界的 M$ Office。 </li><li><code>自由</code> <a href="http://www.openoffice.org/"><strong>OpenOffice.org</strong></a>:  自由軟體界的 M$ Office。 </li>
+</ul><li><h4>Mind Map＼心智圖＼思維導圖</h4></li><ul>
+<li><code>自由</code> <a href="http://freemind.sourceforge.net/wiki/index.php/Main_Page"><strong>FreeMind</strong></a>:  心智圖繪製軟體。 </li>
+</ul><li><h4>EPUB</h4></li><ul>
+<li><code>自由</code> <a href="https://calibre-ebook.com/"><strong>Calibre</strong></a>:  電子書書櫃、EPUB、漫畫閱讀器。 </li><li><code>自由</code> <a href="https://sigil-ebook.com/"><strong>Sigil</strong></a>:  EPUB 編輯器。 </li>
+</ul><li><h4>Text editor - 文本编辑器</h4></li><ul>
+<li><code>自由</code> <a href="https://notepad-plus-plus.org/zh/"><strong>Notepad++</strong></a>:  純文字＼程式碼編輯器，代替記事本，從此再也不怕亂碼。 </li><li><code>自由</code> <a href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a>:  Microsoft 出品，Visual Studio 系列，純文字＼程式碼編輯器，強大的擴展性，假裝是編輯器的 IDE。 </li>
+</ul>
+</ul><li><h3>Languages - 語言</h3></li><ul>
+<li><code>自由</code> <a href="http://rime.im/"><strong>RIME</strong></a>:  擊響中文之韻。中文輸入法引擎，支持注音、拼音、五筆等各種常見和不常見的輸入法，專業強大、跨平臺、自由度極高、可高度定製、校難上手。 </li><li><code>自由</code> <a href="https://github.com/xupefei/Locale-Emulator/releases"><strong>Locale-Emulator</strong></a>:  轉區工具。 </li>
+</ul><li><h3>Application Utilities - 應用工具</h3></li><ul>
+<li><code>自由</code> <a href="https://codebox.net/pages/bitmeteros-downloads"><strong>BitMeter OS</strong></a>:  網路流量監視器。 </li><li><code>自由</code> <a href="https://github.com/Splode/pomotroid/releases"><strong>Pomodoro</strong></a>:  簡潔、可換外觀的番茄工作法計時器。 </li><li><code>自由</code> <a href="https://www.microsoft.com/en-us/p/eartrumpet/9nblggh516xp"><strong>EarTrumpet</strong></a>:  給軟體指定聲音設備、控制音量，需要 Win10 1803 以上。 </li><li><code>自由</code> <a href="https://autohotkey.com/"><strong>AutoHotkey</strong></a>:  強大的自動化工具，需要一點寫手稿語言能力。 </li><li><code>自由</code> <a href="https://www.microsoft.com/zh-tw/p/windows-terminal/9n0dx20hk701"><strong>Microsoft PowerToys</strong></a>:  Windows 官方出品，更靈活的視窗佈局、圖片改大小、批量改檔名等實用功能。 </li><li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=35460"><strong>Microsoft Garage Mouse without Borders</strong></a>:  無縫在多台的電腦上分享切換一套鍵鼠。 </li><li><a href="http://www.moo0.com/"><strong>Moo0 家族</strong></a>: [<code>Family</code>] 45 款小巧實用的工具合集，好看易用。 </li><li><a href="http://www.xiles.net/"><strong>xiles 家族</strong></a>: [<code>Family</code>] 簡單、精心設計和易於使用的軟體。 </li><ul>
+<li><strong>nexusfile</strong>:  檔案總管。 </li><li><strong>nexusfont</strong>:  字形瀏覽器。 </li><li><strong>nexusimage</strong>:  圖片瀏覽器。 </li>
+</ul>
+</ul><li><h3>System Utilities - 系統工具</h3></li><ul>
+<li><code>自由</code> <a href="https://crystalmark.info/en/software/"><strong>Crystal Disk</strong></a>: [<code>Family</code>] 可愛的水晶雫幫你監測硬碟狀態。 </li><ul>
+<li><code>自由</code> <strong>CrystalDiskInfo</strong>:  硬碟狀態監測。 </li><li><code>自由</code> <strong>CrystalDiskMark</strong>:  硬碟讀寫測速。 </li>
+</ul>
+</ul><li><h3>Package Manager - 程式管家</h3></li><ul>
+<li><a href="http://store.steampowered.com/"><strong>Steam</strong></a>:  數位發行平台，遊戲、軟體、影片、音樂... </li><li><code>自由</code> <a href="https://portableapps.com/"><strong>PortableApps.com</strong></a>:  便攜軟體，使得軟體不依賴電腦。 </li><li><code>自由</code> <a href="https://chocolatey.org/"><strong>Chocolatey</strong></a>:  軟體包管理器，Windows 的 apt 或 yum。 </li>
+</ul></ul>
 
-### Web Browser with add-ons - 網頁瀏覽器以及附加元件
-- [Firefox](https://www.mozilla.org/zh-TW/firefox/all/): `自由` 讓你的心智與網路一樣自由開闊。
-    - **Extensions**
-        - **Basic - 基礎**
-            - [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/): 簡稱 ABP，著名廣告攔截插件。
-            - [Copy as Markdown](https://addons.mozilla.org/en-US/firefox/addon/copy-as-markdown/): 以 Markdown 等格式复制 URL，標題。
-            - [Copy URL To Clipboard](https://addons.mozilla.org/en-US/firefox/addon/url2clipboard/): 复制 URL，標題到剪贴板，便於分享等。
-            - [Country Flags & IP Whois](https://addons.mozilla.org/en-US/firefox/addon/country-flags-ip-whois/): 顯示網站所在國家的國旗。
-            - [Firefox Multi-Account Containers](https://addons.mozilla.org/zh-TW/firefox/addon/multi-account-containers/): Firefox 官方出品，小號多開，帳號隔離。
-            - [Flagfox](https://addons.mozilla.org/zh-TW/firefox/addon/flagfox/): 顯示網站所在國家的國旗。
-            - [OneTab](https://addons.mozilla.org/zh-TW/firefox/addon/onetab/): 將當前所有的分頁收起來並生成一個列表，加快瀏覽器速度。
-            - [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/): 快速在各種裝置之間傳遞訊息和檔案。
-            - [Tab Center Redux](https://addons.mozilla.org/en-US/firefox/addon/tab-center-redux/): 在側邊欄管理分頁（Tabs）。
-            - [Undo Close Tab](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/): 一鍵重新打開最近關閉的分頁按鈕。
-            - [Firefox Color](https://color.firefox.com/): 客製化你的 Firefox 外觀。
-            - [Markdown Here](https://addons.mozilla.org/en-US/firefox/addon/markdown-here/): 使用 Markdown 撰寫 EMail，可以與 Evernote 搭配使用。
-            - [Popup window](https://addons.mozilla.org/en-US/firefox/addon/popup-window/): 使用迷你視窗打開網頁。
-            - [YouTube Popout Player](https://addons.mozilla.org/en-US/firefox/addon/youtube-popout-player/): 使用迷你視窗打開 Youtube 影片。
-        - **Privacy - 隱私保護**
-            - [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/): 防止 Facebook 窺探和竊取你的隱私。
-            - [Google search link fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/): 修正 Google 等搜尋引擎結果的重定向，防止搜尋引擎記錄你的點擊。
-            - [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/): 電子前哨基金會 EFF 出品，加密的你的通訊，在可以的情況下儘量使用 HTTPS 訪問網頁，更加的安全。
-            - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/): 電子前哨基金會 EFF 出品，屏蔽間諜廣告和追蹤腳本。
-        - **Special - 特殊需求**
-            - [FoxyProxy Standard](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/): 管理切換代理伺服器，可用於科學上網。
-            - [Steam Database](https://addons.mozilla.org/en-US/firefox/addon/steam-database/): 顯示 Steam 商品的詳細信息，例如價格變化。
-            - [Unblock Youku](https://addons.mozilla.org/en-US/firefox/addon/unblock-youku-firefox/): 在海外看中國視頻網站，解除地區限制。
-            - [购物党实时比价工具](https://addons.mozilla.org/en-US/firefox/addon/购物党实时比价工具-浏览器57以上版本安装/): 中國網路商城比價。
-            - [云盘万能钥匙](https://addons.mozilla.org/en-US/firefox/addon/ypsuperkey/): 自動填寫百度云盤密碼，檢測鏈接是否有效。
-            - [Aria2 Download Manager Integration](https://addons.mozilla.org/en-US/firefox/addon/aria2-integration/): 與 Aria2 下載器搭配使用。
-        - **Advanced - 進階**
-            - [Greasemonkey](https://addons.mozilla.org/zh-TW/firefox/addon/greasemonkey/): User Script 腳本必備。
-            - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/): User Styles 必備，可以客製化修改一些網站（例如 Google）的外觀樣式。
-            - [New Tab Override](https://addons.mozilla.org/zh-TW/firefox/addon/new-tab-override/): 自己定義新分頁顯示的內容。
-- [Google Chrome](https://www.google.com.tw/chrome/browser/desktop/index.html): 瀏覽速度飛快。不僅快速簡單好上手，而且安全無虞，適用各種裝置。
-- [Vivaldi](https://vivaldi.com/download/): 為我們的朋友而打造的瀏覽器。（與 Chrome 使用相同的插件）
-### Internet - 網路
-#### Download - 下載
-- [aria2](https://aria2.github.io/): `自由` 多協議命令行下載器，功能強大需要調教，有很多 UI 界面可以選擇。（[小众软件](https://www.appinn.com/aria2-in-windows-setup/)）
-- [Free Download Manager](http://www.freedownloadmanager.org/)
-##### BitTorrent - 種子＼ＢＴ下載
-- [qBittorrent](https://www.qbittorrent.org/): `自由` 第三方客戶端，可訂製的種子搜尋功能。（[PortableApps](https://portableapps.com/apps/internet/qbittorrent_portable)）（[知乎](https://www.zhihu.com/question/43640207/answer/202058150)）
-#### Email - 電子郵件
-- [Thunderbird](https://www.mozilla.org/en-US/thunderbird/all/): `自由` Mozilla 家族，電子郵件客戶端。
-#### Remote Desktop - 遠端桌面
-- [TeamViewer](https://www.teamviewer.com/zhtw/): 老牌遠端桌面。
-### Multimedia - 多媒體
-- `Family` [Adobe 全家桶](http://www.adobe.com/): `商業` 不二的選擇。
-- [Blender](https://www.blender.org/): `自由` 專業的 3D 創作軟體，還能做影片剪輯甚至游戲引擎。（[Wikipedia](https://en.wikipedia.org/wiki/Blender_(software))）
-#### Audio - 音頻
-##### Player - 播放器
-- [foobar2000](https://www.foobar2000.org/): 音樂播放器，專業強大，需要調教。
-- [AIMP](http://www.aimp.ru/): 來自戰鬥民族的高顏值音樂播放器，支持換外觀。
-- [MiniLyrics](http://www.crintsoft.com/): 為多種播放器自動下載並顯示歌詞。
-#### Video - 視頻
-##### Player - 播放器
-- 视频播放の调教Play: 專業的播放器調教教程。（[小众软件](https://www.appinn.com/video-player-play-0-4/)）
-- [K-Lite Codec Pack](http://www.codecguide.com/): 播放器和編解碼器軟體集，專業、設定多、功能強大。
-- [VLC media player](https://www.videolan.org/vlc/): `自由` 支持衆多格式的跨平臺播放器，支持串流，支持換外觀。
-##### Editor, Converter, Recorder, Live Stream - 剪輯、壓制、錄屏、直播串流
-- [小丸工具箱](http://maruko.appinn.me/): 壓制工具。
-- [Avidemux](http://avidemux.org/): `自由` 日常簡單的影片處理。
-- [Open Broadcaster Software](https://obsproject.com/): `自由` 簡稱 OBS，直播串流、錄屏。
-#### Image - 圖像
-##### Viewer - 瀏覽器
-- [IrfanView](http://www.irfanview.com/): 快速小巧且功能強大的圖片瀏覽器，不僅僅是看圖。（[善用佳软](https://xbeta.info/use-irfanview.htm)）
-- [ImageGlass](http://www.imageglass.org/): `自由` 輕量、多才多藝的圖片瀏覽器。
-- ComicsViewer: 看漫畫。（[作者原文](https://www.cnblogs.com/stronghorse/p/4913182.html)）（[百度盤](http://yun.baidu.com/s/1qXFS9dy)）
-##### Editor - 編輯器
-- [GIMP](https://www.gimp.org/): `自由` 點陣圖編輯軟體，自由軟體界的 Photoshop。
-- [Inkscape](https://inkscape.org/en/): `自由` 矢量圖編輯軟體，自由軟體界的 Ai 或 CorelDRAW。
-- [Krita](https://krita.org/en/): `自由` 繪圖軟體，KDE 家族，自由軟體界的 SAI（？）。
-- [CLIP STUDIO](http://www.clipstudio.net/): `商業` 插畫、漫畫、動畫，日本動漫製作的業界標準。
-- [PaintTool SAI](http://systemax.jp/ja/sai/): `商業` 著名繪圖軟體，插畫、漫畫。
-- [MediBang Paint](https://medibangpaint.com/): 插畫、漫畫。
-##### Print Scrn - 截圖
-- [GifCam](http://blog.bahraniapps.com/gifcam/): 以 GIF 的方式（生成動圖）錄屏。
-- [Snipaste](https://zh.snipaste.com/): 截圖 + 貼圖，功能強大，簡單易用。
-### Embellish and Easy Access - 美化和便捷使用
-- [Rainmeter](https://www.rainmeter.net/): `自由` 桌面小部件，系統美化的幾乎必備。
-- [QTTabBar](http://qttabbar.wikidot.com/): 為你的檔案總管（zhs：文件资源管理器）添加像網頁瀏覽器一樣的標籤頁功能。（[小众软件](https://www.appinn.com/qt-tabbar/)）
-- [Carnac](http://carnackeys.com/): `自由` 在屏幕上顯示鍵盤輸入。
-- Wallpaper Engine: `商業` <del>整個桌布都是我的播放器，</del>可高度客製化的動態桌布。（[Steam](http://store.steampowered.com/app/431960/Wallpaper_Engine/)）
-### Files - 檔案處理
-#### Compression - 壓縮
-- [Bandizip](https://www.bandisoft.com/bandizip/): 多格式支持，方便的文字編碼轉換。
-- [PeaZip](http://www.peazip.org/): `自由` 多格式支持。
-- [7-Zip](http://www.7-zip.org/): `自由` 7z 格式原生，高壓縮率。
-- [WinRAR](http://www.rarlab.com/download.htm): `商業` RAR 格式原生，可添加恢復用冗餘。<del>（其實不要錢也能用）</del>
-#### Desktop Search - 桌面搜尋
-- [Everything](https://www.voidtools.com/): 超高速搜尋文件。（[小众软件](https://www.appinn.com/tag/everything/)）（[Wikipedia](https://zh.wikipedia.org/wiki/Everything_(软件))）
-- [Launchy](http://www.launchy.net/): `自由` 快速啓動工具，再也不需要尋找快捷方式。（[小众软件](https://www.appinn.com/launchy/)）（[Wikipedia](https://zh.wikipedia.org/wiki/Launchy)）
-### Security - 安全
-#### Antivirus - 反病毒
-- [Avast](https://www.avast.com/zh-tw/index): 來自捷克，免費防毒軟體。
-- [Avira](https://www.avira.com/): 來自德國，俗稱小紅傘，免費防毒軟體。
-#### Others - 其他
-- [Eraser](https://eraser.heidi.ie/): 安全徹底地擦除檔案，被擦除的檔案幾乎無法被恢復。
-### Office - 辦公室＼文檔處理
-#### PDF - 可攜式文件格式
-- [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html): `自由` 小巧快速的 PDF、電子書閱讀器。
-- [Adobe Acrobat Reader DC](https://get.adobe.com/tw/reader/): 原生 PDF 閱讀器。
-#### Database - 資料庫
-- [Memento Database](https://mementodatabase.com/): 強大易用的資料庫管理應用，有 Android 版。（[Google Play](https://play.google.com/store/apps/details?id=com.luckydroid.droidbase)）（[小众软件](https://www.appinn.com/memento-database-for-android/)）
-#### Office suite - 辦公室套件
-- [LibreOffice](https://www.libreoffice.org/): `自由` 自由軟體界的 M$ Office。
-- [Apache OpenOffice](http://www.openoffice.org/): `自由` 自由軟體界的 M$ Office。
-#### Mind Mapping＼心智圖＼思維導圖
-- [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page): `自由` 
-#### Markdown
-- [Typora](https://typora.io/): 端莊優雅的 Markdown 編輯器。
-#### EPUB
-- [Calibre](https://calibre-ebook.com/): `自由` 電子書書櫃、EPUB 閱讀器。
-- [Sigil](https://sigil-ebook.com/): `自由` EPUB 編輯器。
-#### Text editor - 文本编辑器
-- [Notepad++](https://notepad-plus-plus.org/zh/): `自由` 純文字程式碼編輯器，代替記事本，從此再也不怕亂碼。
-### Languages - 語言
-#### IME - 輸入法
-- [RIME](http://rime.im/): `自由` 擊響中文之韻。中文輸入法引擎，支持注音、拼音、五筆等各種常見和不常見的輸入法，專業強大、自由度極高、可高度定製、校難上手。
-    - [小狼毫 Weasel](https://rime.im/download/): Windows 輸入法前端。
-    - [PRIME](https://github.com/osfans/PRIME/releases): PIME 輸入法平臺定製版。
-#### AppLocale - 轉區
-- [Locale-Emulator](https://github.com/xupefei/Locale-Emulator/releases): `自由` 轉區工具。
-- [NTLEA](https://ntlea.codeplex.com/): `自由` `停更` 轉區。
-### Utilities - 應用工具
-- [AutoHotkey](https://autohotkey.com/): `自由` 強大、易學（輕編程）的自動化工具。（[Wikipedia](https://zh.wikipedia.org/wiki/AutoHotkey)）
-- 弹窗广告拦截器: 如標題，這樣就能夠優雅的使用那些無時無刻不在彈廣告的軟體了。（[下載](http://www.360drm.com/files/adkiller.zip)）（[知乎](https://www.zhihu.com/question/24265718/answer/27226434)）
-- `Family` [Moo0 家族](http://www.moo0.com/): 37 款免費 + 2 款付費的小巧實用的工具集，好看易用。
-- `Family` [xiles 家族](http://www.xiles.net/): 簡單、易於使用和精心設計的軟體。
-    - nexusfile: 檔案總管
-    - nexusfont: 字形瀏覽器
-    - nexusimage: 圖片瀏覽器
-### System Tools - 系統工具
-- [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/index.html): 檢視硬碟佔用空間分佈。（[小众软件](https://www.appinn.com/space-sniffer/)）
-- `Family` [Piriform 家族](https://www.piriform.com): 專業，易用。
-    - [CCleaner](https://www.piriform.com/ccleaner): 清垃圾。
-    - [Defraggler](https://www.piriform.com/defraggler): 磁碟碎片重組。
-    - [Recuva](https://www.piriform.com/recuva): 刪除文件恢復。
-### Manager - 程式管家
-- [Steam](http://store.steampowered.com/): 數位發行平台，遊戲、軟體、影片、音樂...
-- [PortableApps.com](https://portableapps.com/): `開源` 便攜軟體，使得軟體不依賴電腦。
-
-<!-- END -->
-<!-- Date: 2019-06-06 -->
-<!-- Count: {"Item": 0, "Folder": 42, "Software": 101, "All": 101, "Blocked": {"Item": 0, "Folder": 1, "Software": 9, "All": 9}} -->
+<!--
+Flags filter: ['Abandon', 'Pro', 'Old', 'Discontinued']
+Count:{filter: 20, folder: 27, item: 78}
+-->
 
 ## 如何尋找實用優秀軟體
 
@@ -216,6 +140,8 @@ Summary: <del>裝機必備的實用軟體大合集！</del>
 
 - 看緣分（這是真...
 - 維基百科：根據你想要的功能搜尋，特別是一些列表和比較的頁面，標題通常像是「List of ...」或「Comparison of ...」。
+- 尋找現有軟體的替代品：
+    - [AlternativeTo](https://alternativeto.net/)
 - 相關的部落格＼網站：
     - [小众软件](http://www.appinn.com/)
     - [阿榮福利味](http://www.azofreeware.com/)
@@ -227,27 +153,22 @@ Summary: <del>裝機必備的實用軟體大合集！</del>
 
 ---
 
-- Release Notes:
-    - 2.1.2 Release (20190415).
-    - 2.1.1 Release (20190131).
-    - 2.1.0 Release (20190116).
-        - 更新了部分內容；
-        - 合併一些瑣碎的分類；
-        - 獨立出 `Licenses` 標記；
-        - 程式碼更新。
-    - 2.0.0 Release (20180818). 第二版更新。
-        - 更新了部分內容；
-        - 更新了推薦軟體列表；
-        - 增加了更詳細的標記；
-        - 修正了不兼容的排版；
-        - 程式碼更新。
-    - 1.4.1 Release (20180324).
-    - 1.4.0 Release (20180301). Generate by YAML and Python.
-    - 1.3.1 Release (20180207). Fix for jekyll.
-    - 1.3.0 Release (20180206). Fix for jekyll, Copyrignt.
-    - 1.2.4 Release (20171230).
-    - 1.2.3 Release (20171218).
-    - 1.2.2 Release (20171202).
-    - 1.2.1 Release (20171130).
-    - 1.2.0 Release (20170821).
-    - 1.1.0 Release (20170726).
+## Release Notes
+
+- 5.0.0 (2020-12-13): 第五版更新。更新和修正了部分內容；程式碼重寫，文章生成基於 Python，jinja2 和 YAML。
+- 3.0.1 (2020-07-24): 第三版更新。更新和修正了部分內容；原始資料重新結構；程式碼重寫。
+- 2.1.2 (2019-04-15): 更新和修正了部分內容。
+- 2.1.1 (2019-01-31): 更新和修正了部分內容。
+- 2.1.0 (2019-01-16): 更新和修正了部分內容；合併一些瑣碎的分類；獨立出 `Licenses` 標記；程式碼更新。
+- 2.0.0 (2018-08-18): 第二版更新。更新和修正了部分內容；增加了更詳細的標記；修正了不兼容的排版；程式碼更新。
+- 1.4.1 (2018-03-24): 更新和修正了部分內容。
+- 1.4.0 (2018-03-01): 更新和修正了部分內容；文章生成基於 Python 和 YAML。
+- 1.3.1 (2018-02-07): 修正了不兼容的排版。
+- 1.3.0 (2018-02-06): 修正了不兼容的排版。
+- 1.3.0 (2018-02-06): 修正了不兼容的排版。
+- 1.2.4 (2017-12-30)
+- 1.2.3 (2017-12-18)
+- 1.2.2 (2017-12-02)
+- 1.2.1 (2017-11-30)
+- 1.2.0 (2017-08-21)
+- 1.1.0 (2017-07-26)
