@@ -3,9 +3,10 @@ Title: 推薦的 Windows 應用軟體列表
 Date: 2021-01-06
 Modified: 2021-01-06
 Category: Category
-Tags: [zh_TW, Windows, Apps]
+Tags: [zh_TW, Awesome lists, Windows, Softwares, Apps]
 Slug: WinSoft
-Authors: undecV
+Authors: [undecV]
+Lang: cht
 Summary: List of Windows Application Software<br /><del>裝機必備的實用軟體大合集！</del>
 ...
 

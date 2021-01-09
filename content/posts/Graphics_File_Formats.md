@@ -1,12 +1,13 @@
 ---
-Title: Comparison of Graphics File Formats
+Title: 數位影像檔案格式
 Date: 2018-02-07 00:00
 Modified: 2018-02-07 00:00
 Category: Category
 Tags: [zh_TW, Graphics, File Formats, Introduction]
 Slug: GraphicsFileFormats
-Authors: undecV
-Summary: 數位影像之圖形檔案格式
+Authors: [undecV]
+Lang: cht
+Summary: Comparison of Graphics File Formats<br />在使用電腦的過程中，常見很多圖像檔案格式，例如：BMP、JPG、GIF、PNG；<br />大角蜀的你是否在使用電腦繪圖或影像處理的時候不知該使用以上何種格式而困擾？
 ...
 
 在使用電腦的過程中，常見很多圖像檔案格式，例如：`BMP`、`JPG`、`GIF`、`PNG`；<br />

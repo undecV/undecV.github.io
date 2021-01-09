@@ -14,13 +14,10 @@ from pelicanconf import *
 SITEURL = 'https://undecv.github.io'
 
 RELATIVE_URLS = False
-
-# FEED_ALL_ATOM = 'feeds/all.atom.xml'
-# CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
+USE_LESS = False
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+# # Following items are often useful when publishing
+# DISQUS_SITENAME = ""
+# GOOGLE_ANALYTICS = ""

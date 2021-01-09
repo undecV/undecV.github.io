@@ -1,12 +1,13 @@
 ---
-Title: BitTorrent Introduction
+Title: BitTorrent 從入門到出門
 Date: 2019-12-11 00:00
 Modified: 2019-12-11 00:00
 Category: Category
 Tags: [zh_TW, BitTorrent, Download, File Sharing, Tutorial, Introduction]
 Slug: BitTorrentIntro
-Authors: undecV
-Summary: BitTorrent 從入門到出門
+Authors: [undecV]
+Lang: cht
+Summary: BitTorrent Introduction
 ...
 
 > 2019-12-11

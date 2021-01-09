@@ -1,12 +1,13 @@
 ---
-Title: Raspberry Pi 4B NAS Episode 1 (HDD & USB)
+Title: Raspberry Pi 4B 搭建 NAS 第一話：外接式機械行動硬碟和 USB 篇
 Date: 2020-04-03 00:00
 Modified: 2020-04-03 00:00
 Category: Category
 Tags: [zh_TW, Raspberry Pi, NAS, HDD, USB, USB HUB]
 Slug: rPi4BNASEp1
-Authors: undecV
-Summary: 樹莓派4B 搭建 NAS 的 <del>翻車日記</del> 第一話，外接式機械行動硬碟和 USB 篇
+Authors: [undecV]
+Lang: cht
+Summary: Raspberry Pi 4B NAS Episode 1 (HDD & USB)<br /><del>爬文是不可能爬文的，这辈子不可能爬文的。Spec 又不會查，Run 不起來纔是正常的樣子。</del>
 ...
 
 <del>爬文是不可能爬文的，这辈子不可能爬文的。Spec 又不會查，Run 不起來纔是正常的樣子。</del>
