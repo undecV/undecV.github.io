@@ -130,6 +130,7 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = [
     'images',
     'extra/custom.css',
+    'extra/favicon.ico',
     # 'extra',
 ]
 
